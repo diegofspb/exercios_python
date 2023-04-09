@@ -1,6 +1,7 @@
 print('#'*20)
 print('Tabuada')
 print('#'*20)
+print('#'*20)
 
 numero = int(input('Informe um número para saber sua TABUADA \n'))
 print('-'*20)
