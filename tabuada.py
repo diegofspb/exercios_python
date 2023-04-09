@@ -5,7 +5,7 @@ print('#'*20)
 
 numero = int(input('Informe um número para saber sua TABUADA \n'))
 print('-'*20)
-print(f'A tabuada de {numero} é:')
+print(f'A tabuada de {numero} é: ')
 a = 0
 while a<10:
     a+=1
