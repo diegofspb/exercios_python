@@ -7,4 +7,5 @@ for numero in range(1000,2000,1):
     if numero%11==5:        
         lista.append(numero)
     
-print(f'\nA lista dos números que dividios por 11 produzem resto 5 é o total de {len(lista)} números, sendo eles:\n {lista}')
+print(f'\nA lista dos números que dividios por 11 produzem resto 5 é o total de {len(lista)} números, sendo eles:\n {lista} ')
+
