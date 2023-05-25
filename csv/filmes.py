@@ -9,8 +9,7 @@ caminho_csv = Path(__file__).parent/'filmes.csv'   #Path sever para identificar 
 with open(caminho_csv,'r', encoding = 'utf-8') as arquivo:  #parametro do with open é caminho, tipo da execução r=reader, encoding
    
     leitor = csv.reader(arquivo)
-    next(leitor)   
-  
+    next(leitor)     
 
     for linha in leitor:
         nome = linha[2]
